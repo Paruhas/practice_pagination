@@ -150,6 +150,28 @@ function App() {
             height: 5rem;
           }
 
+          .app-table > tbody > tr > th:nth-child(1) {
+            width: 10%;
+          }
+          .app-table > tbody > tr > th:nth-child(2) {
+            width: 70%;
+          }
+          .app-table > tbody > tr > th:nth-child(3) {
+            width: 20%;
+          }
+
+          .app-table > tbody > tr > td:nth-child(1) {
+            width: 10%;
+            text-align: center;
+          }
+          .app-table > tbody > tr > td:nth-child(2) {
+            width: 70%;
+          }
+          .app-table > tbody > tr > td:nth-child(3) {
+            width: 20%;
+            text-align: center;
+          }
+
           .app-pagination {
             width: max-content;
             margin: auto;
